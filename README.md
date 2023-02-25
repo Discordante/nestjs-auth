@@ -1,6 +1,6 @@
 ## Description
 
-This project has been done using [Nestjs](https://nestjs.com), [PostgreSQL](https://www.postgresql.org) and [Redis](https://redis.io) have been used to host the data.
+This project has been done using [Nestjs](https://nestjs.com), [PostgreSQL](https://www.postgresql.org) and [Redis](https://redis.io) have been used to host the data. This is an api that allows user authentication through the use of [jwt](https://jwt.io) access tokens. These tokens allow temporary access to resources and must be updated using the refresh token provided. Two-factor authentication and Google login have also been implemented. To use the TFA you need to have an application installed that allows you to register the app. I recommend [Authy](https://authy.com) or [Google Authenticator](https://googleauthenticator.net).
 
 ## Docs
 The api documentation is in swagger and is available at the following link. If it gives error when accessing it is normal, because the instance has to be raised. Try again a couple of minutes later.
