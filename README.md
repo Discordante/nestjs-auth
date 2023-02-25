@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This project has been done using Nestjs(Node.js framework). PostgreSQL and Redis have been used to host the data.
 
 ## Installation
 
@@ -33,6 +33,15 @@ $ npm install
 ```
 
 ## Running the app
+
+In case you want to deploy the project on localhost you need to have docker installed, as we will use it to mount a PostgreSQL instance and a redis instance using docker-compose.
+
+The command to mount these containers is: 
+```bash
+docker compose up
+```
+
+Once we have the containers up and running we can start the project:
 
 ```bash
 # development
