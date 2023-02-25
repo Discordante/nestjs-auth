@@ -2,6 +2,12 @@
 
 This project has been done using [Nestjs](https://nestjs.com), [PostgreSQL](https://www.postgresql.org) and [Redis](https://redis.io) have been used to host the data.
 
+## Docs
+The api documentation is in swagger and is available at the following link. If it gives error when accessing it is normal, because the instance has to be raised. Try again a couple of minutes later.
+
+https://api-auth-wcuj.onrender.com/docs
+
+
 ## Running the app
 
 In case you want to deploy the project on localhost you need to have [docker](https://docs.docker.com/desktop) installed, as we will use it to mount a PostgreSQL instance and a redis instance using [docker-compose](https://docs.docker.com/compose).
@@ -40,16 +46,6 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Docs
-The api documentation is in swagger and is available at the following link. If it gives error when accessing it is normal, because the instance has to be raised. Try again a couple of minutes later.
-
-https://api-auth-wcuj.onrender.com/docs
-
-
-## License
-
-Nest is [MIT licensed](LICENSE).
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
