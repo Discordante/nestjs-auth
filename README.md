@@ -60,7 +60,8 @@ $ npm run test:cov
 
 ## Docs
 The api documentation is in swagger and is available at the following link. If it gives error when accessing it is normal, because the instance has to be raised. Try again a couple of minutes later.
-[nestjs-auth](https://api-auth-wcuj.onrender.com/docs)
+
+https://api-auth-wcuj.onrender.com/docs
 
 
 ## License
