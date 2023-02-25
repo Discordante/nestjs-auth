@@ -1,6 +1,6 @@
 ## Description
 
-This project has been done using [Nestjs](https://nestjs.com). [PostgreSQL](https://www.postgresql.org) and [Redis](https://redis.io) have been used to host the data.
+This project has been done using [Nestjs](https://nestjs.com), [PostgreSQL](https://www.postgresql.org) and [Redis](https://redis.io) have been used to host the data.
 
 ## Running the app
 
